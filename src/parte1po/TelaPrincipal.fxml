@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="765.0" style="-fx-background-color: linear-gradient(#070707, #474747);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="parte1po.TelaPrincipalController">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <Label minWidth="100.0" text="Algoritmo: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblAlgoritmo" maxWidth="150.0" minWidth="150.0" text="Counting Sort" textFill="#287171">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER_RIGHT" minWidth="485.0" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <JFXComboBox fx:id="cbAlgoritmo" focusColor="#a9520c" labelFloat="true" minWidth="150.0" onAction="#evtSelecionarAlgoritmo" promptText="Algoritmo" unFocusColor="#a9520c" />
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </HBox>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="bt0" layoutX="30.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt1" layoutX="90.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt2" layoutX="150.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt3" layoutX="210.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt4" layoutX="270.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt5" layoutX="330.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt6" layoutX="390.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt7" layoutX="450.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt8" layoutX="510.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt9" layoutX="570.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt10" layoutX="630.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="bt11" layoutX="690.0" layoutY="50.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux0" layoutX="30.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux1" layoutX="90.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux2" layoutX="150.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux3" layoutX="210.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux4" layoutX="270.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux5" layoutX="330.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux6" layoutX="390.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux7" layoutX="450.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux8" layoutX="510.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux9" layoutX="570.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux10" layoutX="630.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btAux11" layoutX="690.0" layoutY="160.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes0" layoutX="30.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes1" layoutX="90.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes2" layoutX="150.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes3" layoutX="210.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes4" layoutX="270.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes5" layoutX="330.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes6" layoutX="390.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes7" layoutX="450.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes8" layoutX="510.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes9" layoutX="570.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes10" layoutX="630.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btRes11" layoutX="690.0" layoutY="270.0" maxHeight="35.0" maxWidth="45.0" minHeight="30.0" minWidth="45.0" prefHeight="30.0" prefWidth="45.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="lblAuxiliar" layoutX="29.0" layoutY="166.0" text="Auxiliar:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblLegenda" layoutX="204.0" layoutY="166.0" text="Legenda:" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btLegendaLaranja" layoutX="346.0" layoutY="182.0" maxHeight="10.0" minHeight="10.0" prefHeight="25.0" prefWidth="47.0" style="-fx-background-color: #a9520c;" text=" " />
+            <Label fx:id="lblLegendaRoxa" layoutX="271.0" layoutY="156.0" text="Gnome: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btLegendaRoxa" layoutX="346.0" layoutY="161.0" maxHeight="10.0" minHeight="10.0" prefHeight="23.0" prefWidth="47.0" style="-fx-background-color: #6A006D;" text=" " />
+            <Label fx:id="lblLegendaLaranja" layoutX="271.0" layoutY="177.0" text="Gnome: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btBucket0" layoutX="30.0" layoutY="160.0" maxHeight="35.0" maxWidth="115.0" minHeight="30.0" minWidth="115.0" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btBucket3" layoutX="420.0" layoutY="160.0" maxHeight="35.0" maxWidth="115.0" minHeight="30.0" minWidth="115.0" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btBucket2" layoutX="290.0" layoutY="160.0" maxHeight="35.0" maxWidth="115.0" minHeight="30.0" minWidth="115.0" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btBucket1" layoutX="160.0" layoutY="160.0" maxHeight="35.0" maxWidth="115.0" minHeight="30.0" minWidth="115.0" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: #287171;" text=" " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="lblExpoente" layoutX="271.0" layoutY="200.0" text="Expoente: " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Canvas fx:id="canvas" height="360.0" layoutX="23.0" layoutY="20.0" width="720.0" />
+         </children>
+      </Pane>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="765.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXButton fx:id="btGerarVetor" buttonType="RAISED" maxHeight="35.0" maxWidth="120.0" minHeight="30.0" minWidth="120.0" onAction="#evtGerarVetor" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #a9520c;" text="Gerar Vetor" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="btIniciar" buttonType="RAISED" layoutX="25.0" layoutY="43.0" maxHeight="35.0" maxWidth="120.0" minHeight="30.0" minWidth="120.0" onAction="#evtIniciar" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #287171;" text="Iniciar" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </JFXButton>
+            <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="480.0" spacing="15.0">
+               <children>
+                  <JFXButton fx:id="btCancelar" buttonType="RAISED" maxHeight="35.0" maxWidth="120.0" minHeight="30.0" minWidth="120.0" onAction="#evtCancelar" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #a9520c;" text="Cancelar" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="brSair" buttonType="RAISED" layoutX="520.0" layoutY="43.0" maxHeight="35.0" maxWidth="120.0" minHeight="30.0" minWidth="120.0" onAction="#evtSair" prefHeight="30.0" prefWidth="120.0" style="-fx-background-color: #a9520c;" text="Sair" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets right="15.0" />
+               </padding>
+            </HBox>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="15.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>
